@@ -1,9 +1,10 @@
+
 package ExecutorFramework;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-public class ExecutorsDemo {
+public class Executor {
     public static void main(String[] args){
         ExecutorService executor = Executors.newFixedThreadPool(2);
         //System.out.println(executor.getClass().getName());
