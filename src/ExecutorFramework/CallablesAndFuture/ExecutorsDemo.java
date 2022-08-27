@@ -14,7 +14,7 @@ public class ExecutorsDemo {
         try{
             var future = executor.submit(() -> {
                 //System.out.println(Thread.currentThread().getName());
-                LongTask.simulate();// don't wait for it
+                LongTask.simulate();
                 return 1;
             });
             System.out.println("Do more task");
