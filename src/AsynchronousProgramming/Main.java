@@ -5,10 +5,10 @@ public class Main {
         var service = new MailService();
         //service.send();
         service.sendAsync();
-        System.out.println("Hello world");
+        System.out.println("Hello world");// as asynchronous so it will print
 
         try{
-            Thread.sleep(4000);
+            Thread.sleep(4000);// wait sometimes before terminate. If more to execute
         }
         catch (InterruptedException e){
             e.printStackTrace();
